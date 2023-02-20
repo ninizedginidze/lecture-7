@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'Rufina', serif;
+    src: url(../fonts/Rufina-Bold.ttf);
+}
+@font-face {
+    font-family: 'Red Rose';
+    src: url(../fonts/RedRose-Regular.ttf);
+}
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+body {
+    background-color: #FFFFFF;
+}
+.container {
+    max-width: 1304px;
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    height: 119px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.logo a {
+    font-size: 22px;
+    line-height: 27.17px;
+    font-weight: 700;
+    color: black;
+    font-family:'Rufina', serif;
+}
+nav a {
+    font-size: 14px;
+    line-height: 17.49px;
+    font-weight: 400;
+    color:black;
+    font-family: 'Red Rose';
+    text-decoration: none;
+}
+input {
+    width:336px;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+    font-size: 10px;
+    line-height: 13.23px;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #969494;
+    padding: 14px 225px 14px 40px;
+  }
+  /*home page*/
+  .color-charts {
+    padding: 40px 36px 119px 36px;
+  }
+  .color-categories ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+  }
+  .color-categories a {
+    font-size: 16px;
+    line-height: 21.17px;
+    font-weight: 400;
+    font-family:'Red Hat Display', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 6px 24px;
+    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;
+  }
+  .color-categories a:hover {
+    background-color: #F1F1F1;
+  }
+  .color-cards {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 86px;
+    column-gap: 64px;
+  }
+  .color-palette {
+    width: 260px;
+    height: 271px;
+  }
+  .color-picker {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 15.88px;
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  .color-tab {
+    height: 50px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .one {
+    background-color:#CDF0EA;
+  }
+  .two {
+    background-color: #F9F9F9;
+  }
+  .three {
+    background-color: #F6C6EA;
+  }
+  .four {
+    background-color: #FAF4B7;
+  }
+  .five {
+    background-color: #D4ECDD;
+  }
+  .six {
+    background-color: #345B63;
+  }
+  .seven {
+    background-color: #152D35;
+  }
+  .eight {
+    background-color: #112031;
+  }
+  .nine {
+    background-color: #F9F3DF;
+  }
+  .ten {
+    background-color:#CDF2CA ;
+  }
+  .eleven {
+    background-color: #FFDEFA;
+  }
+  .twelve {
+    background-color: #FFC898;
+  }
+  .thirteen {
+    background-color: #3330E4;
+  }
+  .fourteen {
+    background-color: #F637EC;
+  }
+  .fifteen {
+    background-color: #FBB454;
+  }
+  .sixteen {
+    background-color: #FAEA48;
+  }
+  .seventeen {
+    background-color: #D9D7F1;
+  }
+  .eighteen {
+    background-color: #FFFDDE;
+  }
+  .nineteen {
+    background-color: #E7FBBE;
+  }
+  .twenty {
+    background-color: #FFCBCB;
+  }
+  .twenty-one {
+    background-color:#990000 ;
+  }
+  .twenty-two {
+    background-color:#FF5B00 ;
+  }
+  .twenty-three {
+    background-color: #D4D925;
+  }
+  .twenty-four {
+    background-color:#FFEE63 ;
+  }
+  .twenty-five {
+    background-color:#B91646 ;
+  }
+  .twenty-six {
+    background-color:#DFD8CA ;
+  }
+  .twenty-seven {
+    background-color:#FBF3E4 ;
+  }
+  .twenty-eight {
+    background-color:#105652 ;
+  }
+  .twenty-nine {
+    background-color:#CDF0EA ;
+  }
+  .thirty {
+    background-color:#F9F9F9 ;
+  }
+  .thirty-one {
+    background-color: #F6C6EA;
+  }
+  .thirty-two {
+    background-color: #FAF4B7;
+  }
+  .thirty-three {
+    background-color: #FFCC1D;
+  }
+  .thirty-four {
+    background-color: #0B4619;
+  }
+  .thirty-five {
+    background-color: #116530;
+  }
+  .thirty-six {
+    background-color: #E8E8CC;
+  }
+  .thirty-seven {
+    background-color: #00FFAB;
+  }
+  .thirty-eight {
+    background-color: #14C38E;
+  }
+  .thirty-nine {
+    background-color: #B8F1B0;
+  }
+  .forty {
+    background-color: #E3FCBF;
+  }
+  .forty-one {
+    background-color: #49FF00;
+  }
+  .forty-two {
+    background-color: #FBFF00;
+  }
+  .forty-three {
+    background-color: #FF9300;
+  }
+  .forty-four {
+    background-color: #FF0000;
+  }
+  .forty-five {
+    background-color: #06283D;
+  }
+  .forty-six {
+    background-color: #1363DF;
+  }
+  .forty-seven {
+    background-color: #47B5FF;
+  }
+  .forty-eight {
+    background-color: #DFF6FF;
+  }
+  .download-section {
+    height: 50px;
+    border: 1px solid #EAEAEA;
+    padding: 17px 13px 14px 25px;
+  }
+  .download {
+    margin-left: 130px;
+    margin-right:20px ;
+  }
+  .download-section img {
+    cursor: pointer;
+  }
+  .color-tab p {
+    height: 20px;
+    background: rgba(217, 217, 217, 0.5);
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 15.88px;
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 3px;
+    text-align: center;
+    opacity: 0;
+}
+ .code-left {
+    width: 67px;
+    border-radius: 0px 10px 0px 4px;
+}
+.code-right {
+    width: 86px;
+    border-radius:10px 0px 4px;
+}
+.color-tab:hover p {
+    opacity: 1;
+}
+/*collection page*/
+.color-palette-collection {
+    padding-top: 40px;
+}
+.building-palette {
+    margin-top: 40px;
+    height: 283px;
+    background-image: url(../img/palette.png);
+}
+.building-palette:hover {
+  filter: contrast(50%);
+}
+.building-palette p {
+    font-size: 40px;
+    line-height: 49.96px;
+    font-weight: 700;
+    font-family:'Red Rose';
+    color: #FFFFFF;
+    text-align: center;
+    padding: 117px;
+}
+.palettes {
+  margin: 100px 101px 136px 101px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
+  row-gap: 87px;
+}
+.palette-card {
+    margin-top: 50px;
+    width: 346px;
+    height: 314px;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+}
+.color-ellipses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.color-codes {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+.color-codes p {
+  font-size: 10px;
+  line-height: 13.23px;
+  font-weight: 600;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #5A5A5A;
+}
+.color-ellipse {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.ellipse1 {
+    background-color: #D12529;
+}
+.ellipse2 {
+    background-color: #394430;
+}
+.ellipse3 {
+  background-color:#FC739F;
+}
+.ellipse4 {
+  background-color: #FA9F4A;
+}
+.ellipse5 {
+  background-color:#A13583;
+}
+.ellipse6 {
+  background-color:#FF8601;
+}
+.ellipse7 {
+  background-color: #F2EAE7;
+}
+.ellipse8 {
+  background-color: #430001;
+}
+.ellipse9 {
+  background-color:#15100F;
+}
+.ellipse10 {
+  background-color:#E59222;
+}
+.ellipse11 {
+  background-color:#7F73B5;
+}
+.ellipse12 {
+  background-color: #E2DFE6;
+}
+.ellipse13 {
+  background-color: #534090;
+}
+.ellipse14 {
+  background-color: #0E44A7;
+}
+.ellipse15 {
+  background-color: #050408;
+}
+.ellipse16 {
+  background-color: #F6F6F8;
+}
+.ellipse17 {
+  background-color: #FDCF05;
+}
+.ellipse18 {
+  background-color: #49403E;
+}
+.ellipse19 {
+  background-color: #E6D9C9;
+}
+.ellipse20 {
+  background-color: #F9E822;
+}
+.ellipse21 {
+  background-color: #007CC2;
+}
+.ellipse22 {
+  background-color: #01A0D9;
+}
+.ellipse23 {
+  background-color: #DE9E00;
+}
+.ellipse24 {
+  background-color: #CDDD97;
+}
+.ellipse25 {
+  background-color: #DFD046;
+}
+.ellipse26 {
+  background-color: #F5BCCF;
+}
+.ellipse27 {
+  background-color: #E1D953;
+}
+.ellipse28 {
+  background-color: #D09231;
+}
+.ellipse29 {
+  background-color: #563E43;
+}
+.ellipse30 {
+  background-color: #A9C12A;
+}
+
+
+
+
